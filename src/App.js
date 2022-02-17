@@ -23,7 +23,7 @@ function App() {
                           <div>{reminder.text}</div>
                           <div>{moment(new Date(reminder.date)).calendar()} </div>
                           <button 
-                            className='btn btn-primary' 
+                            className='btn btn-primary w-100' 
                             onClick={() => dispatch(remove_Reminder(index))}>
                             <i className="fa fa-trash"></i>
                           </button>
