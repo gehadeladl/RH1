@@ -3,6 +3,9 @@ body{
   position: relative;
   font-family: 'Averia Sans Libre', cursive !important;
 }
+/* "homepage": "https://gehadeladl.github.io/RH1/", */
+/* "predeploy": "npm run build",
+    "deploy":"gh-pages -d build", */
 .app{
   border: 2px solid #fff;
   width: 70%;
@@ -18,16 +21,12 @@ body{
   color: #fff;
   margin: 15px;
   text-align: center;
-  letter-spacing: 2px;
-  font-size: 35px;
 }
 label{
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
   color: #fff;
-  letter-spacing: 2px;
-  font-size: 25px;
 }
 input{
   border: 2px solid #436c70 !important;
@@ -37,11 +36,9 @@ input{
   box-shadow: none !important;
   color: #436c70 !important;
   font-weight: bold !important;
-  font-size: 20px !important;
 }
 input::placeholder{
   color: #436c70 !important;
-  font-size: 20px;
 }
 .btn-primary{
   background-color: #2b5458a6 !important;
@@ -51,14 +48,9 @@ input::placeholder{
   margin-top: 5px;
   margin-bottom: 15px;
   font-weight: bold;
-  font-size: 20px !important;
-  letter-spacing: 2px;
-}
-.pri i  , .btn-danger i {
-  margin-right: 5px;
-  font-size: 25px;
 }
 .btn-danger{
+  color: #436c70 !important;
   background-color: #fff !important;
   border:none !important;
   outline: none !important;
@@ -66,10 +58,11 @@ input::placeholder{
   margin-top: 5px;
   margin-bottom: 15px;
   border: 2px solid #2b5458a6 !important;
-  font-size: 20px !important;
-  letter-spacing: 2px;
-  color: #436c70 !important;
-  font-weight: bolder !important;
+  font-weight: bold;
+}
+.pri i  , .btn-danger i {
+  margin-right: 5px;
+  font-size: 20px;
 }
 .list-group-item{
   margin-bottom: 15px;
@@ -78,21 +71,6 @@ input::placeholder{
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-}
-.list-group-item div , .list-group-item button{
-  width: 100%;
-  color: #fff;
-  background-color: #436c70;
-  margin: 3px;
-  padding: 10px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-size: 20px;
 }
 @media(max-width:770px){
   .app{
