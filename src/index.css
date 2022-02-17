@@ -3,9 +3,6 @@ body{
   position: relative;
   font-family: 'Averia Sans Libre', cursive !important;
 }
-/* "homepage": "https://gehadeladl.github.io/RH1/", */
-/* "predeploy": "npm run build",
-    "deploy":"gh-pages -d build", */
 .app{
   border: 2px solid #fff;
   width: 70%;
